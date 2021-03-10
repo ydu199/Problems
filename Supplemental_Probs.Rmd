@@ -5,7 +5,7 @@ output: pdf_document
 ---
 
 G&S
-30. (Page 117)
+30.(Page 117)
 (a)
 ```{r}
 #p=0.5

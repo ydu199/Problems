@@ -57,12 +57,13 @@ curve(exp(x),0,log(2),col="darkblue",add=TRUE)
 17.(page 265)
 ```{r}
 set.seed(2021)
-mean(sample(1:6,10,replace=TRUE))
-var(sample(1:6,10,replace=TRUE))
-```
-```{r}
-mean(sample(1:6,1000,replace=TRUE))
-var(sample(1:6,1000,replace=TRUE))
+s1<-sample(1:6,10,replace=TRUE)
+mean(s1)
+var(s1)
+
+s2<-sample(1:6,1000,replace=TRUE)
+mean(s2)
+var(s2)
 ```
 
 

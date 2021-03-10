@@ -51,7 +51,7 @@ hist(y3, freq =FALSE, xlab = 'y3',density=30)
 curve(1/(x^2),1/2,1,col="darkblue",add=TRUE)
 ```
 ```{r}
-hist(y4, freq =FALSE, xlab = 'y3',density=30)
+hist(y4, freq =FALSE, xlab = 'y4',density=30)
 curve(exp(x),0,log(2),col="darkblue",add=TRUE)
 ```
 17.(page 265)
